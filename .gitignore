@@ -1,0 +1,7 @@
+*build*/
+CMakeLists.txt.user
+*~
+/**/*.xcodeproj/**/xcuserdata/
+/**/*.xcodeproj/**/xcshareddata/
+/vendor/
+.idea
