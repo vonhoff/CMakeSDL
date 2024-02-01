@@ -41,7 +41,7 @@ if (WIN32)
     file(REMOVE "${CMAKE_BINARY_DIR}/SDL2.zip")
 endif ()
 
-# Find SDL2 and OpenGL
+# Find SDL2
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/modules")
 find_package(SDL2 "2.0.5" REQUIRED COMPONENTS main)
 
